@@ -355,7 +355,31 @@ img {
 /* About */
 
 .about-item {
-border: 1px solid var(--border-white-color);
+	position: relative;
+	border: 1px solid var(--border-white-color);
+}
+
+.about-desc {
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	padding-top: 27px;
+	padding-bottom: 27px;
+
+	background-color: rgba(46, 47, 66, 0.4);
+}
+
+.about-text {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.11;
+	text-transform: uppercase;
+
+	color: var(--main-background-color);
 }
 
 /* Employees */
