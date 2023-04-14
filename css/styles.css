@@ -949,4 +949,5 @@ img {
 
 .checkbox-link {
 	color: var(--accent-color);
+	text-transform: capitalize;
 }
