@@ -360,7 +360,7 @@
 					growth solutions.</p>
 			</div>
 			<div class="footer-social-wrap">
-				<p class="footer-social-text">Social media</p>
+				<p class="footer-title-text">Social media</p>
 				<ul class="list list-flex">
 					<li class="item">
 						<a href="/" class="social-link footer-icon-active" aria-label="link to web studio instagram profile">
@@ -394,13 +394,13 @@
 			</div>
 
 			<div class="wrap-footer-form">
-				<p class="title-footer-form">Subscribe</p>
+				<p class="footer-title-text">Subscribe</p>
 				<form class="footer-form">
-					<!-- <label for="user-subscribe" aria-label="Enter your email to subscribe"></label> -->
+					<label for="user-subscribe" aria-label="Enter your email to subscribe"></label>
 					<input class="footer-input" type="email" name="user-subscribe" id="user-subscribe" title="example@gmail.com"
 						placeholder="E-mail">
 
-					<button type="button" class="footer-btn">
+					<button type="submit" class="footer-btn">
 						<span class="footer-btn-text">Subscribe</span>
 						<svg class="subscribe-icon" width="24" height="24">
 							<use href="./image/icons/icons.svg#subscribe"></use>
@@ -457,20 +457,28 @@
 
 				<div class="modal-form-comment">
 					<label class="form-label" for="user-comment">Comment</label>
-					<textarea class="comment-input" name="user-comment" id="user-comment" placeholder="Text input"
-						required></textarea>
+					<textarea class="comment-input" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
 				</div>
 
 				<div class="modal-form-checkbox">
-					<input class="checkbox-input" type="checkbox" name="policy" id="policy" required>
-					<label class="checkbox-label" for="policy">I accept the terms and conditions of the <a href=""
-							class="checkbox-link">Privacy Policy</a></label>
+					<input class="checkbox-input visually-hidden" type="checkbox" name="user-policy" id="policy" value="true" required>
+					<label class="checkbox-label" for="policy">
+						<span>
+							<svg class="" width="10" height="8">
+								<use href="./image/icons/icons.svg#checkbox-active"></use>
+							</svg>
+						</span>
+						I accept the terms and conditions of the <a href="" class="checkbox-link">Privacy Policy</a>
+					</label>
 				</div>
 
 				<button type="submit" class="hero-btn btn">Send</button>
 			</form>
 		</div>
 	</div>
+
+
+
 
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script>
